@@ -138,7 +138,7 @@ export default function RadioApp() {
             {LOGO_URL ? <img src={LOGO_URL} alt="Logo" style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : "📻"}
           </div>
           <div>
-            <div style={{ fontSize: 13, fontWeight: 700 }}>Light FM Rio</div>
+            <div style={{ fontSize: 13, fontWeight: 700 }}>NEW FM Rio</div>
             <div style={{ display: "flex", alignItems: "center", gap: 4, fontSize: 10, color: T.live }}>
               <span style={{ width: 5, height: 5, borderRadius: "50%", background: T.live, display: "inline-block", animation: "blink 1.8s infinite" }} />
               AO VIVO
@@ -159,8 +159,8 @@ export default function RadioApp() {
               <div style={{ width: 54, height: 54, borderRadius: 15, overflow: "hidden", background: T.accentLight, border: `1px solid ${T.accentBorder}`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 24, marginBottom: 12 }}>
                 {LOGO_URL ? <img src={LOGO_URL} alt="Logo" style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : "📻"}
               </div>
-              <div style={{ fontWeight: 700, fontSize: 16 }}>Light FM Rio</div>
-              <div style={{ fontSize: 12, color: T.textSub, marginTop: 2 }}>lightfm@gmail.com</div>
+              <div style={{ fontWeight: 700, fontSize: 16 }}>NEW FM Rio</div>
+              <div style={{ fontSize: 12, color: T.textSub, marginTop: 2 }}>newfm@gmail.com</div>
               {ouvintes !== null && (
                 <div style={{ display: "inline-flex", alignItems: "center", gap: 5, marginTop: 8, background: T.liveBg, border: `1px solid ${T.liveBorder}`, borderRadius: 20, padding: "3px 10px" }}>
                   <span style={{ width: 5, height: 5, borderRadius: "50%", background: T.live, display: "inline-block", animation: "blink 1.8s infinite" }} />
