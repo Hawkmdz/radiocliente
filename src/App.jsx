@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-const STREAM_URL = "https://playerservices.streamtheworld.com/api/livestream-redirect/JOVEMPANAAC.aac";
+const STREAM_URL = "https://stream.zeno.fm/yn65fsaurfhvv"; // Rádio teste - substituir pela URL do cliente
 const AZURACAST_API = "https://de1.api.radio-browser.info/json/stations/byname/jovem%20pan";
 const LOGO_URL = null;
 
